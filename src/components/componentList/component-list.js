@@ -6,5 +6,9 @@ export const componentList = [
     {
         component: 'zzwImage',
         label: '图片',
+    },
+    {
+        component: 'zzwInput',
+        label: '输入框'
     }
 ]

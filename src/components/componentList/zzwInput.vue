@@ -1,12 +1,12 @@
 <template>
     <div class="component">
-        <img src="../../assets/logo.png" />
+        <a-input v-model:value="value" placeholder="Basic usage" />
     </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-
+let value = ref('')
 </script>
 
 <style lang="less" scoped>
@@ -14,9 +14,5 @@ import { ref } from 'vue'
     background: gray;
     width: 200px;
     height: 100px;
-    img {
-        width: 90%;
-        height: 90%;
-    }
 }
 </style>
